@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,li{
+    font-family: 'Roboto Slab';
+}
+
+p{
+    font-family: 'Roboto';
+} 
+
+
+.encabezado-redes-sociales{
+    background-color:purple;
+    height:60px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado-redes-sociales i{
+    color:white;
+}
+
+.encabezado-redes-sociales a{
+    margin-right: 15px;
+}
+
+nav{
+    height: 80px;
+    background-color:plum;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    font-family:'Oswald', sans-serif;
+    /* font-weight: bolder; */
+    color:purple;
+}
+
+nav .nav-imagen-logo img{
+    height: 35px;
+}
+
+nav .nav-menu ul{
+    display:flex;
+    list-style-type: none; /*quitar las viñetas*/
+    
+}
+
+nav .nav-menu-ul li{
+    margin-right:20px;
+    color: white;
+    
+}
+
+nav .nav-menu a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.main{
+    /* border: 5px solid red; */
+    height: 100vh;
+    background-image: url("robot.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center; /*centrar verticalmente*/
+    justify-content: center; /*centrar horizontalmente*/
+
+}
+/* kljbdsafvljibasvfl*/
+.main-section{
+    color:white;
+    text-align: center;
+}
+
+.main-section h1{
+    font-size:120px;
+    margin-bottom: 0;
+    
+}
+
+.main-section p{
+    font-size: 20px;
+    margin-top: 0;
+    font-family: 'Roboto Mono';
+
+}
+
+.main-section button{
+    background-color:purple;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-family: 'Roboto Mono';
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.main-section button a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer{
+    height:60px;
+    background-image: linear-gradient(#45034b, #57025f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto Mono'; 
+}
+
+.proyectos-main{
+    height:80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top:50px;
+}
+
+.proyectos-imagen{
+    width: 400px;
+   
+}
+
+.proyectos-imagen img{
+    width:95%;
+  
+}
+
+.informacion{
+    width:600px;
+    /* margin-left: 50px */
+    
+    
+}
+
+.informacion p{
+    text-align: justify;
+}
+
+.informacion h1{
+    font-size: 65px;
+    margin-top:0;
+    margin-bottom: 0px;
+}
+/*
+.informacion ul{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.informacion li{
+    margin-bottom: 15px;;
+}
+*/
+.botonera{
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.botonera button{
+    background-color:purple;
+    width: 200px;
+    height: 50px;
+    font-family: 'Roboto Mono';
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 30px;
+   
+}
+
+.botonera button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.botonera button:focus{
+    background-color:plum;
+}
+
+.blog-titulo{
+    text-align: center;
+    margin:100px;
+}
+.blog-titulo h1{
+    margin: 0px;
+    font-size: 100px;
+    }
+    
+
+.blog-titulo p{
+font-family: 'Roboto Mono';
+margin: 0px;
+}
+
+.blog-cuerpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.blog-contenido {
+width: 30%;
+text-align: justify;
+margin-right: 5px;
+}
+.blog-imagen{
+    width: 30%;
+    margin-left: 5px;
+}
+
+.blog-imagen img {
+    width: 100%;
+}
+
+.autor-informacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.autor-informacion p {
+    text-align: justify;
+    width: 61%;
+}
+
+
+
+.autor-curriculum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+    
+    
+}
+/*
+.autor-curriculum-p1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30.5%;
+    
+
+}*/
+.autor-curriculum-imagen{
+    
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    
+
+}
+.autor-curriculum-imagen img{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+
+.datos{
+    width: 45%;
+    text-align: left;
+    padding-left: 1%;
+    background-color: plum;
+    border: solid 5px  rgb(95, 3, 95);
+    border-radius: 20px;
+    
+    
+}
+.datos ul {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 0%;
+  
+}
+
+.datos li {
+    margin-right: 5px;
+    margin-left: 15px;
+}
+/*
+.autor-curriculum-p2 {
+    text-align: justify;
+    width: 30.5%;
+    font-size: 10.5px;
+}*/
+
+.main-contactame{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.main-imagen-contactame img{
+    width: 300px;  
+  border-radius: 100%;
+}
+
+.main-imagen-contactame {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+
+}
+
+.main-datos-contactame{
+     display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 25px;
+    text-align: center;
+}
+.main-redes-sociales-contactame{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+
+.rejilla-proyectos-contenido{
+    text-align: center;
+    margin: 30px;
+    border: solid 3px purple;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+}
+
+.rejilla-proyectos-contenido img{
+width: 100px;
+
+}
+
+.rejilla-proyectos-contenido a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.rejilla-proyectos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   margin:100px;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   
+
+}
